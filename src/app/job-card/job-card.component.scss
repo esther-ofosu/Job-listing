@@ -1,0 +1,22 @@
+@import "main";
+
+section{
+    #job-card{
+        display: flex;
+        height: 5rem;
+        background-color: #FFFFFF;
+        width: 70vw;
+        margin-left: 10rem;
+        height: 9rem;
+        margin-top: 5rem;
+
+        img{
+            width: 5.5rem;
+            height: 5.5rem;
+        }
+        p{
+            // color:red
+        }
+    }
+}
+
