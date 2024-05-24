@@ -1,11 +1,12 @@
 @import "main";
 
 section {
-  background-color: #ffffff;
+  background-color: $white;
   width: 77vw;
   display: flex;
   align-items: center;
   gap: 1.25rem;
+  font-family:'Franklin Gothic Medium';
   #job-card {
     display: flex;
     align-items: center;
@@ -22,10 +23,22 @@ section {
       span {
         display: flex;
         justify-content: space-between;
+
+        .sub-details{
+            @include font-family($size:1.125rem, $color:$ash)
+        }
+      }
+
+      #company-name{
+        @include font-family($size:1.125rem);
+      }
+
+      #company-position{
+        @include font-family($color:$black, $size:1.375rem);
       }
     }
     small {
-      @include text-normal($size: 1rem, $color: #5ca5a5, $weight: 500);
+      @include text-normal($size: 1rem, $color: $deep-green, $weight: 500);
       line-height: 2rem;
     }
   }
