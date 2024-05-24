@@ -17,3 +17,7 @@ export interface JobPosition{
     juniorDev: string,
     frontDev:string
 }
+
+export interface JobLocation{
+    
+}
