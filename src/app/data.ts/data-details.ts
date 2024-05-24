@@ -1,6 +1,6 @@
 import { JobDetails } from "../shared/interfaces";
 
-export const jobDetails:any=[
+export const jobDetails:JobDetails[]=[
     {
     id:1,
     icon:"/assets/images/photosnap.svg",
@@ -14,7 +14,7 @@ export const jobDetails:any=[
     id:2,
     icon:"/assets/images/manage.svg",
     position:"Fullstack Developer",
-    location:"",
+    location:"Remote",
     companyName:"Manage",
     timePosted:"1d ago",
     employmentStatus:"Part Time"
@@ -23,7 +23,7 @@ export const jobDetails:any=[
     id:3,
     icon:"/assets/images/account.svg",
     position:"Junior Frontend Developer",
-    location:"",
+    location:"USA only",
     companyName:"Account",
     timePosted:"2d ago",
     employmentStatus:"Part Time"
@@ -31,8 +31,8 @@ export const jobDetails:any=[
 {
     id:4,
     icon:"/assets/images/myhome.svg",
-    position:"",
-    location:"",
+    position:"Junior Frontend Developer",
+    location:"USA only",
     companyName:"MyHome",
     timePosted:"5d ago",
     employmentStatus:"Contract"
@@ -40,8 +40,8 @@ export const jobDetails:any=[
 {
     id:5,
     icon:"/assets/images/loop-studios.svg",
-    position:"",
-    location:"",
+    position:"Software Engineer",
+    location:"Worldwide",
     companyName:"Loop Studios",
     timePosted:"1w ago",
     employmentStatus:"Full Time"
@@ -49,8 +49,8 @@ export const jobDetails:any=[
 {
     id:6,
     icon:"/assets/images/faceit.svg",
-    position:"",
-    location:"",
+    position:"Junior Backend Developer",
+    location:"UK only",
     companyName:"FaceIt",
     timePosted:"2w ago",
     employmentStatus:"Full Time"
@@ -58,8 +58,8 @@ export const jobDetails:any=[
 {
     id:7,
     icon:"/assets/images/shortly.svg",
-    position:"",
-    location:"",
+    position:"Junior Developer",
+    location:"Worldwide",
     companyName:"Shortly",
     timePosted:"2w ago",
     employmentStatus:"Full Time"
@@ -67,8 +67,8 @@ export const jobDetails:any=[
 {
     id:8,
     icon:"/assets/images/insure.svg",
-    position:"",
-    location:"",
+    position:"Junior Frontend Developer",
+    location:"USA only",
     companyName:"Insure",
     timePosted:"2w ago",
     employmentStatus:"Full Time"
@@ -76,8 +76,8 @@ export const jobDetails:any=[
 {
     id:9,
     icon:"/assets/images/eyecam-co.svg",
-    position:"",
-    location:"",
+    position:"Full Stack Engineer",
+    location:"Worldwide",
     companyName:"Eyecam Co.",
     timePosted:"3w ago",
     employmentStatus:"Full Time"
@@ -85,10 +85,17 @@ export const jobDetails:any=[
 {
     id:10,
     icon:"/assets/images/the-air-filter-company.svg",
-    position:"",
-    location:"",
+    position:"Front-end Dev",
+    location:"Worldwide",
     companyName:"The Air Filter Company",
     timePosted:"1mo ago",
     employmentStatus:"Part Time"
 }
 ]
+
+export const jobLocation=[{
+    us:"USA only",
+    remote:"Remote",
+    world:"Worldwide",
+    uk:"UK only"
+}]

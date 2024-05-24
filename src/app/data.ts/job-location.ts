@@ -1,4 +1,4 @@
-export const JobLocation={
+export const jobLocation={
     us:"USA only",
     remote:"Remote",
     world:"Worldwide",

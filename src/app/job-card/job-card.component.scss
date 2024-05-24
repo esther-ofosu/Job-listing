@@ -1,22 +1,32 @@
 @import "main";
 
-section{
-    #job-card{
-        display: flex;
-        height: 5rem;
-        background-color: #FFFFFF;
-        width: 70vw;
-        margin-left: 10rem;
-        height: 9rem;
-        margin-top: 5rem;
+section {
+  background-color: #ffffff;
+  width: 77vw;
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  #job-card {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    height: 9rem;
 
-        img{
-            width: 5.5rem;
-            height: 5.5rem;
-        }
-        p{
-            color: #5CA5A5;
-        }
+    img {
+      width: 5.5rem;
+      height: 5.5rem;
+      margin: 2rem;
     }
+    #details {
+        @include flex-column;
+      span {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+    small {
+      @include text-normal($size: 1rem, $color: #5ca5a5, $weight: 500);
+      line-height: 2rem;
+    }
+  }
 }
-
