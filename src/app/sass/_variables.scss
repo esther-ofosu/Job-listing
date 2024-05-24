@@ -1,8 +1,12 @@
 // Base
 $white: var(--white) !default;
 $dark: var(--dark) !default;
-$light-green: var(--#EFFAFA);
-$deep-green: var(--#5CA5A5);
+$light-green: #EFFAFA;
+$deep-green: #5CA5A5;
+$white:#ffffff;
+$font-family:'Franklin Gothic Medium';
+$black:#2B3939;
+$ash:#7C8F8F;
 
 // TYPOGRAPHY
 $font-family-logo: var(--font-family-logo) !default;
@@ -75,3 +79,4 @@ $success-300: var(--success-300) !default;
 $success-500: var(--success-500) !default;
 $success-700: var(--success-700) !default;
 $success-800: var(--success-800) !default;
+
