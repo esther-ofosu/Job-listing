@@ -5,7 +5,16 @@ export interface JobDetails{
     location:string,
     companyName:string,
     timePosted:string,
-    employmentStatus:string
+    employmentStatus:string,
+    button:{
+        chapter:string,
+        level:string,
+        stack:string,
+        language:{
+            language1:string,
+            language2:string,
+        }
+    },
 }
 
 export interface JobPosition{
@@ -15,7 +24,7 @@ export interface JobPosition{
     software:string,
     juniorBack: string,
     juniorDev: string,
-    frontDev:string
+    frontDev:string,
 }
 
 export interface JobLocation{
