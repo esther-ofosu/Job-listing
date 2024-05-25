@@ -25,7 +25,7 @@ section {
         justify-content: space-between;
 
         .sub-details{
-            @include font-family($size:1.125rem, $color:$ash)
+            @include font-family($size:1.125rem, $color:$ash, $font-family:$league-Medium)
         }
       }
 
