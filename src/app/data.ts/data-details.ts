@@ -8,7 +8,16 @@ export const jobDetails:JobDetails[]=[
     location:"USA only",
     companyName:"Photosnap",
     timePosted:"1d ago",
-    employmentStatus:"Full Time"
+    employmentStatus:"Full Time",
+    button:{
+        chapter:'Frontend',
+        level:'Junior',
+        stack:'React',
+        language:{
+            language1: 'JavaScript',
+            language2:'Sass'
+        },
+    }
 },
 {
     id:2,
@@ -17,7 +26,16 @@ export const jobDetails:JobDetails[]=[
     location:"Remote",
     companyName:"Manage",
     timePosted:"1d ago",
-    employmentStatus:"Part Time"
+    employmentStatus:"Part Time",
+    button:{
+        chapter:'Frontend',
+        level:'Junior',
+        stack:'React',
+        language:{
+            language1: 'JavaScript',
+            language2:'Sass'
+        },
+    }
 },
 {
     id:3,
@@ -26,7 +44,16 @@ export const jobDetails:JobDetails[]=[
     location:"USA only",
     companyName:"Account",
     timePosted:"2d ago",
-    employmentStatus:"Part Time"
+    employmentStatus:"Part Time",
+    button:{
+        chapter:'Frontend',
+        level:'Junior',
+        stack:'React',
+        language:{
+            language1: 'JavaScript',
+            language2:'Sass'
+        },
+    }
 },
 {
     id:4,
@@ -35,7 +62,16 @@ export const jobDetails:JobDetails[]=[
     location:"USA only",
     companyName:"MyHome",
     timePosted:"5d ago",
-    employmentStatus:"Contract"
+    employmentStatus:"Contract",
+    button:{
+        chapter:'Frontend',
+        level:'Junior',
+        stack:'React',
+        language:{
+            language1: 'JavaScript',
+            language2:'Sass'
+        },
+    }
 },
 {
     id:5,
@@ -44,7 +80,16 @@ export const jobDetails:JobDetails[]=[
     location:"Worldwide",
     companyName:"Loop Studios",
     timePosted:"1w ago",
-    employmentStatus:"Full Time"
+    employmentStatus:"Full Time",
+    button:{
+        chapter:'Frontend',
+        level:'Junior',
+        stack:'React',
+        language:{
+            language1: 'JavaScript',
+            language2:'Sass'
+        },
+    }
 },
 {
     id:6,
@@ -53,7 +98,16 @@ export const jobDetails:JobDetails[]=[
     location:"UK only",
     companyName:"FaceIt",
     timePosted:"2w ago",
-    employmentStatus:"Full Time"
+    employmentStatus:"Full Time",
+    button:{
+        chapter:'Frontend',
+        level:'Junior',
+        stack:'React',
+        language:{
+            language1: 'JavaScript',
+            language2:'Sass'
+        },
+    }
 },
 {
     id:7,
@@ -62,7 +116,16 @@ export const jobDetails:JobDetails[]=[
     location:"Worldwide",
     companyName:"Shortly",
     timePosted:"2w ago",
-    employmentStatus:"Full Time"
+    employmentStatus:"Full Time",
+    button:{
+        chapter:'Frontend',
+        level:'Junior',
+        stack:'React',
+        language:{
+            language1: 'JavaScript',
+            language2:'Sass'
+        },
+    }
 },
 {
     id:8,
@@ -71,7 +134,16 @@ export const jobDetails:JobDetails[]=[
     location:"USA only",
     companyName:"Insure",
     timePosted:"2w ago",
-    employmentStatus:"Full Time"
+    employmentStatus:"Full Time",
+    button:{
+        chapter:'Frontend',
+        level:'Junior',
+        stack:'React',
+        language:{
+            language1: 'JavaScript',
+            language2:'Sass'
+        },
+    }
 },
 {
     id:9,
@@ -80,7 +152,16 @@ export const jobDetails:JobDetails[]=[
     location:"Worldwide",
     companyName:"Eyecam Co.",
     timePosted:"3w ago",
-    employmentStatus:"Full Time"
+    employmentStatus:"Full Time",
+    button:{
+        chapter:'Frontend',
+        level:'Junior',
+        stack:'React',
+        language:{
+            language1: 'JavaScript',
+            language2:'Sass'
+        },
+    }
 },
 {
     id:10,
@@ -89,7 +170,16 @@ export const jobDetails:JobDetails[]=[
     location:"Worldwide",
     companyName:"The Air Filter Company",
     timePosted:"1mo ago",
-    employmentStatus:"Part Time"
+    employmentStatus:"Part Time",
+    button:{
+        chapter:'Frontend',
+        level:'Junior',
+        stack:'React',
+        language:{
+            language1: 'JavaScript',
+            language2:'Sass'
+        },
+    }
 }
 ]
 
