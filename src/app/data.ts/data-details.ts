@@ -107,7 +107,7 @@ export const jobDetails:JobDetails[]=[
         stack:'Ruby',
         language:{
             language1: 'RoR',
-            language2:''
+            language2:'Python'
         },
     }
 },

@@ -3,32 +3,65 @@
 section {
   display: flex;
   background-color: $white;
-  width: 77vw;
-  align-items: center;
   gap: 1.25rem;
   font-family: "Franklin Gothic Medium";
-  // #job-card {
-  // display: flex;
   @include flex-row;
   align-items: center;
+
+  @include max-lg {
+    @include flex-column;
+    position: relative;
+  }
+
+  #vertical-line {
+    height: 0.063rem;
+    background-color: $line-color;
+    display: none;
+
+    @include max-lg {
+      display: block;
+      justify-self: center;
+      margin-top: 1rem;
+    }
+  }
+
   img {
     width: 5.5rem;
     height: 5.5rem;
-    margin: 2rem;
+    margin: 2rem 0 2rem 2rem;
+
+    @include max-lg {
+      margin: 0;
+      display: flex;
+      align-content: flex-start;
+      position: absolute;
+      left: 0;
+      top: -2.5rem;
+    }
   }
+
   #details {
     @include flex-row;
 
+    @include max-lg {
+      @include flex-column;
+      margin: 4rem 2rem 2rem 2rem;
+    }
+
     #details-div {
       @include flex-column;
+      justify-content: center;
     }
 
     #button-div {
-      align-items: center;
+      align-content: center;
       button {
         @include button;
         margin-left: 2rem;
-        margin-top: 2rem;
+
+        @include max-lg{
+        margin: 2rem 0 0 2rem;
+        }
       }
     }
 
@@ -50,9 +83,9 @@ section {
       @include font-family($color: $black, $size: 1.375rem);
     }
   }
+
   small {
     @include text-normal($size: 1rem, $color: $deep-green, $weight: 500);
     line-height: 2rem;
   }
-  // }
 }
