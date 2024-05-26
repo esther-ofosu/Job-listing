@@ -1,0 +1,10 @@
+@import "main";
+
+section{
+    background-color: $white;
+    height: 5rem;
+    width: 50vw;
+
+    @include flex-row;
+
+}
