@@ -9,10 +9,11 @@ export interface JobDetails{
     button:{
         chapter:string,
         level:string,
-        stack:string,
+        stack?:string,
         language:{
             language1:string,
-            language2:string,
+            language2?:string,
+            language3?:string
         }
     },
 }

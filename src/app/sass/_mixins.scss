@@ -7,6 +7,12 @@
     background-image: $url;
   }
 
+@mixin space-between{
+  display: flex;
+  justify-content: space-between;
+  align-items: space-between;
+}
+
   @mixin flex-row {
     display: flex;
     flex-direction: row;
@@ -48,4 +54,15 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-image: $url;
+  }
+
+  @mixin button(){
+    background-color: $light-green;
+    border: none;
+    outline: none;
+    color: $deep-green;
+    font-size: 1rem;
+    font-family: $league-Bold;
+    line-height: 2rem;
+    border-radius: 0.3rem;
   }

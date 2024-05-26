@@ -15,7 +15,8 @@ export const jobDetails:JobDetails[]=[
         stack:'React',
         language:{
             language1: 'JavaScript',
-            language2:'Sass'
+            language2:'Sass',
+
         },
     }
 },
@@ -28,12 +29,13 @@ export const jobDetails:JobDetails[]=[
     timePosted:"1d ago",
     employmentStatus:"Part Time",
     button:{
-        chapter:'Frontend',
+        chapter:'Fullstack',
         level:'Junior',
         stack:'React',
         language:{
-            language1: 'JavaScript',
-            language2:'Sass'
+            language1: 'Python',
+            language2:'Midweight',
+            language3:'CSS'
         },
     }
 },
@@ -66,10 +68,10 @@ export const jobDetails:JobDetails[]=[
     button:{
         chapter:'Frontend',
         level:'Junior',
-        stack:'React',
+        stack:'Frontend',
         language:{
             language1: 'JavaScript',
-            language2:'Sass'
+            language2:'CSS'
         },
     }
 },
@@ -82,12 +84,12 @@ export const jobDetails:JobDetails[]=[
     timePosted:"1w ago",
     employmentStatus:"Full Time",
     button:{
-        chapter:'Frontend',
+        chapter:'Fullstack',
         level:'Junior',
-        stack:'React',
+        stack:'Ruby',
         language:{
             language1: 'JavaScript',
-            language2:'Sass'
+            language2:'Midweight'
         },
     }
 },
@@ -100,12 +102,12 @@ export const jobDetails:JobDetails[]=[
     timePosted:"2w ago",
     employmentStatus:"Full Time",
     button:{
-        chapter:'Frontend',
+        chapter:'Backend',
         level:'Junior',
-        stack:'React',
+        stack:'Ruby',
         language:{
-            language1: 'JavaScript',
-            language2:'Sass'
+            language1: 'RoR',
+            language2:''
         },
     }
 },
@@ -120,7 +122,7 @@ export const jobDetails:JobDetails[]=[
     button:{
         chapter:'Frontend',
         level:'Junior',
-        stack:'React',
+        stack:'HTML',
         language:{
             language1: 'JavaScript',
             language2:'Sass'
@@ -138,7 +140,7 @@ export const jobDetails:JobDetails[]=[
     button:{
         chapter:'Frontend',
         level:'Junior',
-        stack:'React',
+        stack:'Vue',
         language:{
             language1: 'JavaScript',
             language2:'Sass'
@@ -154,12 +156,12 @@ export const jobDetails:JobDetails[]=[
     timePosted:"3w ago",
     employmentStatus:"Full Time",
     button:{
-        chapter:'Frontend',
-        level:'Junior',
+        chapter:'Fullstack',
+        level:'Midweight',
         stack:'React',
         language:{
             language1: 'JavaScript',
-            language2:'Sass'
+            language2:'Django'
         },
     }
 },
@@ -177,7 +179,9 @@ export const jobDetails:JobDetails[]=[
         stack:'React',
         language:{
             language1: 'JavaScript',
-            language2:'Sass'
+            language2:'Sass',
+            language3:'python'
+
         },
     }
 }
