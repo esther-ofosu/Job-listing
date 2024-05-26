@@ -1,4 +1,8 @@
 @import "main";
 div{
     @include flex-row;
+   button{
+    outline: none;
+    border: none;
+   }
 }

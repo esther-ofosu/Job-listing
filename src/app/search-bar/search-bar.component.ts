@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { jobDetails } from '../data.ts/data-details';
 import { SearchCardComponent } from "../search-card/search-card.component";
+import { jobRequirement } from '../data.ts/job-requirement';
 
 @Component({
     selector: 'app-search-bar',
@@ -10,5 +10,5 @@ import { SearchCardComponent } from "../search-card/search-card.component";
     imports: [SearchCardComponent]
 })
 export class SearchBarComponent {
-  Data= jobDetails;
+  Items= jobRequirement;
 }

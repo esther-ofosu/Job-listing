@@ -2,9 +2,12 @@
 
 section{
     background-color: $white;
-    height: 5rem;
-    width: 50vw;
+    height: 10rem;
 
     @include flex-row;
 
+}
+
+div{
+    display: flex;
 }

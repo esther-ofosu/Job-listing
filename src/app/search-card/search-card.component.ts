@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { JobDetails } from '../shared/interfaces';
+import { JobDetails, JobRequirement } from '../shared/interfaces';
 
 @Component({
   selector: 'app-search-card',
@@ -9,6 +9,6 @@ import { JobDetails } from '../shared/interfaces';
   styleUrl: './search-card.component.scss'
 })
 export class SearchCardComponent {
-  @Input() data!: JobDetails;
+  @Input() item!: JobRequirement;
 
 }
