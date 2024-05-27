@@ -6,16 +6,7 @@ export interface JobDetails{
     companyName:string,
     timePosted:string,
     employmentStatus:string,
-    button:{
-        chapter:string,
-        level:string,
-        stack?:string,
-        language:{
-            language1:string,
-            language2?:string,
-            language3?:string
-        }
-    },
+    requirements:string[]
 }
 
 export interface JobRequirement{

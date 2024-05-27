@@ -53,6 +53,11 @@ $breakpoints: (
     @content;
   }
 }
+@mixin max-mid {
+  @media (max-width: calc(map-get($breakpoints, "mid") - 1px)) {
+    @content;
+  }
+}
 @mixin max-lg {
   @media (max-width: calc(map-get($breakpoints, "lg") - 1px)) {
     @content;

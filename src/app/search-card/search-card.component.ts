@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, output } from '@angular/core';
 import { JobDetails, JobRequirement } from '../shared/interfaces';
 
 @Component({
@@ -9,6 +9,11 @@ import { JobDetails, JobRequirement } from '../shared/interfaces';
   styleUrl: './search-card.component.scss'
 })
 export class SearchCardComponent {
-  @Input() item!: JobRequirement;
+  @Input() filter!: string;
+  removeFilterEmitter = output<string>();
+
+  onRemoveFilter() {
+    this.removeFilterEmitter.emit(this.filter)
+  }
 
 }

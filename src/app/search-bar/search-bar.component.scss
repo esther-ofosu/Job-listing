@@ -1,47 +1,49 @@
 @import "main";
 
-section{
-    border-radius: 0.5rem;
-    background-color: $white;
-    margin: -5rem 5rem 5rem;
+section {
+  border-radius: 0.5rem;
+  background-color: $white;
+  margin: -5rem 5rem 5rem;
+  display: flex;
+  padding: 2rem;
+  justify-content: space-between;
+  flex-direction: row;
+  @include max-lg {
+    gap: 4rem;
+    justify-content: flex-start;
+    padding-left: 0.5rem;
+    // margin: -5rem 2rem 2rem;
+  }
+
+  @include max-md {
+    gap: 0.5rem;
+    justify-content: space-evenly;
+  }
+
+  #buttons {
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 0.5rem;
+
+    @include max-lg {
+      grid-template-columns: auto auto auto auto;
+    }
+
+    @include max-md {
+      grid-template-columns: auto auto;
+    }
+
+    @include max-sm {
+      grid-template-columns: auto;
+    }
+  }
+
+  #clear {
     display: flex;
-    padding: 2rem;
-    justify-content: space-between;
-    @include max-lg{
-        gap: 8rem;
-
-    }
-
-
-
-    #buttons{
-        align-items: center;
-        display: grid;
-        grid-template-columns: auto auto auto auto auto auto;
-        gap: 0.5rem;
-        // padding: 2rem;
-        align-items: center;
-    
-        @include max-lg{
-        grid-template-columns: auto auto auto auto ;
-        }
-    
-        @include max-md{
-        grid-template-columns: auto auto auto ;
-        }
-
-        @include max-sm{
-        grid-template-columns: auto auto;
-
-        }
-    }
-
-    #clear{
-        display: flex;
-        align-items: center;
-        font-size: 1.25rem;
-        font-family: $league-Bold;
-        color: $ash;
-    }
+    align-items: center;
+    font-size: 1.25rem;
+    font-family: $league-Bold;
+    color: $ash;
+  }
 }
-

@@ -6,7 +6,7 @@ section {
   gap: 2rem;
   font-family: "Franklin Gothic Medium";
   border-radius: 0.5rem ;
-  @include flex-row;
+  // @include flex-column;
   align-items: center;
 
   @include max-lg {
@@ -56,6 +56,11 @@ section {
       span{
         display: flex;
         gap: 1rem;
+      }
+
+      @include max-lg{
+      margin-right: 0;
+
       }
     }
 

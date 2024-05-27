@@ -8,5 +8,8 @@ section{
 
    #button2{
     @include button2;
+
+    @include max-lg {
+    }
 }
 }
