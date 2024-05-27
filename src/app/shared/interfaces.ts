@@ -18,19 +18,8 @@ export interface JobDetails{
     },
 }
 
-<<<<<<< HEAD
-export interface JobPosition{
-    SeniorFront:string,
-    Fullstack: string,
-    juniorFront: string,
-    software:string,
-    juniorBack: string,
-    juniorDev: string,
-    frontDev:string,
-=======
 export interface JobRequirement{
     skillRequirement:string,
->>>>>>> 463d687 (step: styling buttons in search card)
 }
 
 export interface JobLocation{
