@@ -1,8 +1,12 @@
 @import "main";
-div{
-    @include flex-row;
+section{
+    display: flex;
    button{
-    outline: none;
-    border: none;
+    @include button;
+    align-items: center;
    }
+
+   #button2{
+    @include button2;
+}
 }

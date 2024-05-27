@@ -3,8 +3,9 @@
 section {
   display: flex;
   background-color: $white;
-  gap: 1.25rem;
+  gap: 2rem;
   font-family: "Franklin Gothic Medium";
+  border-radius: 0.5rem ;
   @include flex-row;
   align-items: center;
 
@@ -50,7 +51,12 @@ section {
 
     #details-div {
       @include flex-column;
+      margin-right: 10rem;
       justify-content: center;
+      span{
+        display: flex;
+        gap: 1rem;
+      }
     }
 
     #button-div {

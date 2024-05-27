@@ -1,5 +1,12 @@
-<div>
-  @for(item of Items; track $index){
-    <app-search-card [item]="item"></app-search-card>
-  }
-</div>
+<section>
+    <div id="buttons">
+        @for(item of Items; track $index){
+          <app-search-card [item]="item"></app-search-card>
+        }
+      </div>
+      
+      <div id="clear">
+          <a>Clear</a>
+      </div>
+</section>
+
