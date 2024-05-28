@@ -19,7 +19,7 @@ export const jobDetails:JobDetails[]=[
     companyName:"Manage",
     timePosted:"1d ago",
     employmentStatus:"Part Time",
-    requirements:['Fullstack','Junior','React','Python','Midweight','CSS']
+    requirements:['Fullstack','React','Python','Midweight','CSS']
 
 },
 {
@@ -70,7 +70,7 @@ export const jobDetails:JobDetails[]=[
     companyName:"Shortly",
     timePosted:"2w ago",
     employmentStatus:"Full Time",
-    requirements:['Frontend','Junior','HTML','HTML','JavaScript','Sass']
+    requirements:['Frontend','Junior','HTML','HTML','JavaScript']
 },
 {
     id:8,
@@ -90,7 +90,7 @@ export const jobDetails:JobDetails[]=[
     companyName:"Eyecam Co.",
     timePosted:"3w ago",
     employmentStatus:"Full Time",
-    requirements:['Fullstack','Midweight','React','JavaScript','Django']
+    requirements:['Fullstack','Midweight','JavaScript','Django','Python']
 },
 {
     id:10,
@@ -100,7 +100,7 @@ export const jobDetails:JobDetails[]=[
     companyName:"The Air Filter Company",
     timePosted:"1mo ago",
     employmentStatus:"Part Time",
-    requirements:['Frontend','Junior','React','JavaScript','Sass','python']
+    requirements:['Frontend','Junior','React','JavaScript','Sass']
 }
 ]
 

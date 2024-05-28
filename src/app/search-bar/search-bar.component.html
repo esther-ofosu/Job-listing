@@ -1,4 +1,4 @@
-<section>
+<section [ngClass]="{hide:filters.length==0}">
     <div id="buttons">
         @for(filter of filters; track $index){
           <app-search-card [filter]="filter" (removeFilterEmitter)="onRemove($event)"></app-search-card>

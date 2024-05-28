@@ -47,6 +47,16 @@
     align-items: center;
   }
 
+  @mixin justify-content{
+    display: flex;
+    justify-content: center;
+  }
+
+  @mixin align-items{
+    display: flex;
+    align-items: center;
+  }
+
   @mixin icon($url, $size: 24px) {
     display: inline-block;
     width: $size;

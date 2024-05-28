@@ -1,5 +1,4 @@
 import { Component, Input, output } from '@angular/core';
-import { JobDetails, JobRequirement } from '../shared/interfaces';
 
 @Component({
   selector: 'app-search-card',

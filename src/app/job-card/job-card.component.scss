@@ -1,13 +1,11 @@
 @import "main";
 
 section {
-  display: flex;
+  @include align-items;
+  justify-content: space-around;
   background-color: $white;
-  gap: 2rem;
   font-family: "Franklin Gothic Medium";
   border-radius: 0.5rem ;
-  // @include flex-column;
-  align-items: center;
 
   @include max-lg {
     @include flex-column;
@@ -21,7 +19,6 @@ section {
 
     @include max-lg {
       display: block;
-      justify-self: center;
       margin-top: 1rem;
     }
   }
@@ -29,7 +26,7 @@ section {
   img {
     width: 5.5rem;
     height: 5.5rem;
-    margin: 2rem 0 2rem 2rem;
+    margin: 2rem 2rem 2rem 2rem;
 
     @include max-lg {
       margin: 0;
@@ -42,8 +39,9 @@ section {
   }
 
   #details {
+    width: 90%;
     @include flex-row;
-
+    justify-content: space-between;
     @include max-lg {
       @include flex-column;
       margin: 4rem 2rem 2rem 2rem;
@@ -70,7 +68,7 @@ section {
         margin-bottom: 1rem;
         cursor: pointer;
         @include button;
-        margin-left: 2rem;
+        margin-right: 2rem;
 
         @include max-lg{
         margin: 2rem 0 0 2rem;
