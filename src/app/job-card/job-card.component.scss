@@ -67,6 +67,8 @@ section {
     #button-div {
       align-content: center;
       button {
+        margin-bottom: 1rem;
+        cursor: pointer;
         @include button;
         margin-left: 2rem;
 
