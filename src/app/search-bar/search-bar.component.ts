@@ -1,6 +1,5 @@
 import { Component, inject, Input, OnInit, output } from '@angular/core';
 import { SearchCardComponent } from '../search-card/search-card.component';
-import { jobRequirement } from '../data.ts/job-requirement';
 import { Store } from '@ngrx/store';
 import { GlobalState } from '../store/state.store';
 import { clearFilters, removeFilter } from '../store/actions.store';
@@ -16,7 +15,6 @@ import { NgClass } from '@angular/common';
 export class SearchBarComponent implements OnInit {
   store = inject(Store);
   filters!: string[];
-  Items = jobRequirement;
 
   ngOnInit(): void {
     this.store

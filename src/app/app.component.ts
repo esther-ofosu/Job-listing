@@ -11,7 +11,7 @@ import { SearchBarComponent } from './search-bar/search-bar.component';
     standalone: true,
     templateUrl: './app.component.html',
     styleUrl: './app.component.scss',
-    imports: [CommonModule, RouterOutlet, HeaderComponent, JobCardComponent, JobListComponent,SearchBarComponent]
+    imports: [CommonModule, RouterOutlet, HeaderComponent, JobCardComponent, JobListComponent]
 })
 export class AppComponent {
   title = 'job-project';

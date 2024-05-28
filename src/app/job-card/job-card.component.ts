@@ -1,11 +1,8 @@
 import {
   Component,
-  EventEmitter,
-  input,
   Input,
   OnInit,
   output,
-  Output,
 } from '@angular/core';
 import { JobDetails } from '../shared/interfaces';
 

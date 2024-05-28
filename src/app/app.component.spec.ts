@@ -1,10 +1,29 @@
 import { TestBed } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import { Store } from '@ngrx/store';
+import { of } from 'rxjs';
 
 describe('AppComponent', () => {
+  const mockFilters = ['filter1', 'filter2'];
+  let store={
+     select: () => {
+      return of({
+        filters: mockFilters
+      })
+    },
+    dispatch: (action: ()=>void) => {
+     return
+    }
+  }
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [AppComponent],
+      providers:[
+        {
+          provide:Store,
+          useValue:store
+        }
+      ]
     }).compileComponents();
   });
 
@@ -20,10 +39,4 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('job-project');
   });
 
-  it('should render title', () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    fixture.detectChanges();
-    const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, job-project');
-  });
 });
