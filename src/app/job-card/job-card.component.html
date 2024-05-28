@@ -1,0 +1,23 @@
+<section>
+    <img src="{{ data.icon }}" alt="" />
+    <span id="details">
+      <div id="details-div">
+        <small id="company-name">{{ data.companyName }}</small>
+        <small id="company-position">{{ data.position }}</small>
+        <span>
+          <small class="sub-details">{{ data.timePosted }}</small>
+          <small class="sub-details">{{ data.employmentStatus}}</small>
+          <small class="sub-details">{{ data.location}}</small>
+        </span>
+      </div>
+      <span id="vertical-line"></span>
+      <div id="button-div">
+        <button>{{ data.button.chapter }}</button>
+        <button>{{ data.button.level }}</button>
+        <button>{{ data.button.stack }}</button>
+        <button>{{ data.button.language.language1 }}</button>
+        <button>{{ data.button.language.language2 }}</button>
+        <button>{{ data.button.language.language3 }}</button>
+      </div>
+    </span>
+</section>

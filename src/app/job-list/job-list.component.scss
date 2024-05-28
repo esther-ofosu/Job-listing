@@ -1,0 +1,13 @@
+@import "main";
+
+div{
+    display: grid;
+    grid-template-rows: auto;
+    gap: 2rem;
+    margin: 5rem;
+    justify-content: center;
+
+    @include max-lg{
+        gap:4rem;
+    }
+}

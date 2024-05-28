@@ -1,0 +1,17 @@
+import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { RouterOutlet } from '@angular/router';
+import { HeaderComponent } from "./header/header.component";
+import { JobCardComponent } from "./job-card/job-card.component";
+import { JobListComponent } from "./job-list/job-list.component";
+
+@Component({
+    selector: 'app-root',
+    standalone: true,
+    templateUrl: './app.component.html',
+    styleUrl: './app.component.scss',
+    imports: [CommonModule, RouterOutlet, HeaderComponent, JobCardComponent, JobListComponent]
+})
+export class AppComponent {
+  title = 'job-project';
+}
