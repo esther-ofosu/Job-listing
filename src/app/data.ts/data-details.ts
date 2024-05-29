@@ -19,7 +19,7 @@ export const jobDetails:JobDetails[]=[
     companyName:"Manage",
     timePosted:"1d ago",
     employmentStatus:"Part Time",
-    requirements:['Fullstack','React','Python','Midweight','CSS']
+    requirements:['Fullstack','Midweight','Python','React']
 
 },
 {
@@ -30,7 +30,7 @@ export const jobDetails:JobDetails[]=[
     companyName:"Account",
     timePosted:"2d ago",
     employmentStatus:"Part Time",
-    requirements:['Frontend','Junior','React','JavaScript','Sass']
+    requirements:['Frontend','Junior','React','Sass','JavaScript']
 },
 {
     id:4,
@@ -40,7 +40,7 @@ export const jobDetails:JobDetails[]=[
     companyName:"MyHome",
     timePosted:"5d ago",
     employmentStatus:"Contract",
-    requirements:['Frontend','Junior','JavaScript','CSS']
+    requirements:['Frontend','Junior','CSS','JavaScript']
 },
 {
     id:5,
@@ -50,7 +50,7 @@ export const jobDetails:JobDetails[]=[
     companyName:"Loop Studios",
     timePosted:"1w ago",
     employmentStatus:"Full Time",
-    requirements:['Fullstack','Junior','Ruby','JavaScript','Midweight']
+    requirements:['Fullstack','Midweight','JavaScript','Sass','Ruby']
 },
 {
     id:6,
@@ -60,7 +60,7 @@ export const jobDetails:JobDetails[]=[
     companyName:"FaceIt",
     timePosted:"2w ago",
     employmentStatus:"Full Time",
-    requirements:['Backend','Junior','Ruby','RoR','Python']
+    requirements:['Backend','Junior','Ruby','RoR']
 },
 {
     id:7,
@@ -70,7 +70,7 @@ export const jobDetails:JobDetails[]=[
     companyName:"Shortly",
     timePosted:"2w ago",
     employmentStatus:"Full Time",
-    requirements:['Frontend','Junior','HTML','HTML','JavaScript']
+    requirements:['Frontend','Junior','HTML','Sass','JavaScript']
 },
 {
     id:8,
@@ -100,7 +100,7 @@ export const jobDetails:JobDetails[]=[
     companyName:"The Air Filter Company",
     timePosted:"1mo ago",
     employmentStatus:"Part Time",
-    requirements:['Frontend','Junior','React','JavaScript','Sass']
+    requirements:['Frontend','Junior','Sass','JavaScript']
 }
 ]
 
