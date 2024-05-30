@@ -1,0 +1,59 @@
+@import "main";
+
+section {
+  min-height: 40px;
+  width: 68%;
+  border-radius: 0.5rem;
+  background-color: $white;
+  margin: -3rem 0 2rem 0;
+  @include align-items;
+  justify-content: space-between;
+  padding: 2rem;
+  flex-direction: row;
+  @include max-lg {
+    gap: 4rem;
+    justify-content: flex-start;
+    padding-left: 0.5rem;
+  }
+
+  @include max-md {
+    gap: 0.5rem;
+    justify-content: space-evenly;
+  }
+
+  &.hide{
+    opacity: 0;
+  }
+
+  #buttons {
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 0.5rem;
+
+    @include max-lg {
+      grid-template-columns: auto auto auto auto;
+    }
+
+    @include max-md {
+      grid-template-columns: auto auto;
+    }
+
+    @include max-sm {
+      grid-template-columns: auto;
+    }
+  }
+
+  #clear {
+    @include align-items;
+    font-size: 1.25rem;
+    font-family: $league-Bold;
+    color: $ash;
+    cursor: pointer;
+    justify-content: center;
+  }
+
+  #clear:hover{
+    color: $deep-green;
+  }
+}

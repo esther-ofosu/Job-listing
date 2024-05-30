@@ -1,5 +1,6 @@
+<app-search-bar></app-search-bar>
 <div>
   @for(data of Data; track $index ){
-  <app-job-card [data]="data"></app-job-card>
+  <app-job-card [data]="data" (filterEmitter)="onAddFilter($event)"></app-job-card>
   }
 </div>

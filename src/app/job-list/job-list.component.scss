@@ -4,10 +4,14 @@ div{
     display: grid;
     grid-template-rows: auto;
     gap: 2rem;
-    margin: 5rem;
+    margin: 0 5rem 5rem 5rem;
     justify-content: center;
 
     @include max-lg{
         gap:4rem;
     }
+}
+
+app-search-bar{
+    @include justify-content;
 }

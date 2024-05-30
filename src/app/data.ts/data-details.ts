@@ -9,17 +9,8 @@ export const jobDetails:JobDetails[]=[
     companyName:"Photosnap",
     timePosted:"1d ago",
     employmentStatus:"Full Time",
-    button:{
-        chapter:'Frontend',
-        level:'Junior',
-        stack:'React',
-        language:{
-            language1: 'JavaScript',
-            language2:'Sass',
-
-        },
-    }
-},
+    requirements:['Frontend','Junior','React','JavaScript','Sass']
+    },
 {
     id:2,
     icon:"/assets/images/manage.svg",
@@ -28,16 +19,8 @@ export const jobDetails:JobDetails[]=[
     companyName:"Manage",
     timePosted:"1d ago",
     employmentStatus:"Part Time",
-    button:{
-        chapter:'Fullstack',
-        level:'Junior',
-        stack:'React',
-        language:{
-            language1: 'Python',
-            language2:'Midweight',
-            language3:'CSS'
-        },
-    }
+    requirements:['Fullstack','Midweight','Python','React']
+
 },
 {
     id:3,
@@ -47,15 +30,7 @@ export const jobDetails:JobDetails[]=[
     companyName:"Account",
     timePosted:"2d ago",
     employmentStatus:"Part Time",
-    button:{
-        chapter:'Frontend',
-        level:'Junior',
-        stack:'React',
-        language:{
-            language1: 'JavaScript',
-            language2:'Sass'
-        },
-    }
+    requirements:['Frontend','Junior','React','Sass','JavaScript']
 },
 {
     id:4,
@@ -65,15 +40,7 @@ export const jobDetails:JobDetails[]=[
     companyName:"MyHome",
     timePosted:"5d ago",
     employmentStatus:"Contract",
-    button:{
-        chapter:'Frontend',
-        level:'Junior',
-        stack:'Frontend',
-        language:{
-            language1: 'JavaScript',
-            language2:'CSS'
-        },
-    }
+    requirements:['Frontend','Junior','CSS','JavaScript']
 },
 {
     id:5,
@@ -83,15 +50,7 @@ export const jobDetails:JobDetails[]=[
     companyName:"Loop Studios",
     timePosted:"1w ago",
     employmentStatus:"Full Time",
-    button:{
-        chapter:'Fullstack',
-        level:'Junior',
-        stack:'Ruby',
-        language:{
-            language1: 'JavaScript',
-            language2:'Midweight'
-        },
-    }
+    requirements:['Fullstack','Midweight','JavaScript','Sass','Ruby']
 },
 {
     id:6,
@@ -101,15 +60,7 @@ export const jobDetails:JobDetails[]=[
     companyName:"FaceIt",
     timePosted:"2w ago",
     employmentStatus:"Full Time",
-    button:{
-        chapter:'Backend',
-        level:'Junior',
-        stack:'Ruby',
-        language:{
-            language1: 'RoR',
-            language2:'Python'
-        },
-    }
+    requirements:['Backend','Junior','Ruby','RoR']
 },
 {
     id:7,
@@ -119,15 +70,7 @@ export const jobDetails:JobDetails[]=[
     companyName:"Shortly",
     timePosted:"2w ago",
     employmentStatus:"Full Time",
-    button:{
-        chapter:'Frontend',
-        level:'Junior',
-        stack:'HTML',
-        language:{
-            language1: 'JavaScript',
-            language2:'Sass'
-        },
-    }
+    requirements:['Frontend','Junior','HTML','Sass','JavaScript']
 },
 {
     id:8,
@@ -137,15 +80,7 @@ export const jobDetails:JobDetails[]=[
     companyName:"Insure",
     timePosted:"2w ago",
     employmentStatus:"Full Time",
-    button:{
-        chapter:'Frontend',
-        level:'Junior',
-        stack:'Vue',
-        language:{
-            language1: 'JavaScript',
-            language2:'Sass'
-        },
-    }
+    requirements:['Frontend','Junior','Vue','JavaScript','Sass']
 },
 {
     id:9,
@@ -155,15 +90,7 @@ export const jobDetails:JobDetails[]=[
     companyName:"Eyecam Co.",
     timePosted:"3w ago",
     employmentStatus:"Full Time",
-    button:{
-        chapter:'Fullstack',
-        level:'Midweight',
-        stack:'React',
-        language:{
-            language1: 'JavaScript',
-            language2:'Django'
-        },
-    }
+    requirements:['Fullstack','Midweight','JavaScript','Django','Python']
 },
 {
     id:10,
@@ -173,17 +100,7 @@ export const jobDetails:JobDetails[]=[
     companyName:"The Air Filter Company",
     timePosted:"1mo ago",
     employmentStatus:"Part Time",
-    button:{
-        chapter:'Frontend',
-        level:'Junior',
-        stack:'React',
-        language:{
-            language1: 'JavaScript',
-            language2:'Sass',
-            language3:'python'
-
-        },
-    }
+    requirements:['Frontend','Junior','Sass','JavaScript']
 }
 ]
 

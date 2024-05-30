@@ -1,0 +1,18 @@
+@import "main";
+section{
+    display: flex;
+   button{
+    cursor: pointer;
+    @include button;
+    align-items: center;
+   }
+
+   #button2{
+    cursor: pointer;
+    @include button2;
+
+    @include max-lg {
+    }
+}
+
+}
