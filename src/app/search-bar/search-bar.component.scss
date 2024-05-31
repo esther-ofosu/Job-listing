@@ -17,7 +17,7 @@ section {
 
   @include max-md {
     gap: 0.5rem;
-    justify-content: space-evenly;
+    // justify-content: space-evenly;
   }
 
   &.hide{
