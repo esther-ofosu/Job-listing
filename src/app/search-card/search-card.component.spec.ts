@@ -17,7 +17,7 @@ describe('SearchCardComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it('should create SearchCardComponent', () => {
     expect(component).toBeTruthy();
   });
 });

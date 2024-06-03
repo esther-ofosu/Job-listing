@@ -38,7 +38,7 @@ describe('SearchBarComponent', () => {
     
   });
 
-  it('should create', () => {
+  it('should create SearchBarComponent', () => {
     expect(component).toBeTruthy();
   });
 

@@ -18,11 +18,10 @@ describe('JobCardComponent', () => {
     component = fixture.componentInstance;
   });
 
-  it('should create', () => {
+  it('should create JobCardComponent', () => {
     expect(component).toBeTruthy();
   });
 
-  // Input data tests
   it('should display job details when data is provided', () => {
     const mockJobDetails: JobDetails = {
       id: 1,
@@ -49,20 +48,6 @@ describe('JobCardComponent', () => {
     expect(requirementButtons[0].nativeElement.textContent).toEqual(mockJobDetails.requirements[0]);
   });
 
-  it('should handle missing data in input (optional)', () => {
-    component.data = {
-      id: 1,
-      icon: 'path/to/icon.png',
-      companyName: 'Test Company',
-      position: 'Software Engineer',
-      timePosted: '1 day ago',
-      employmentStatus: 'Full-Time',
-      location: 'Remote',
-      requirements: ['Java', 'React'],
-    }; 
-    fixture.detectChanges();
-
-  });
 
   it('should emit filter on button click', () => {
     const mockJobDetails: JobDetails = {
@@ -80,7 +65,7 @@ describe('JobCardComponent', () => {
     component.filterEmitter.subscribe((requirement) => expect(requirement).toEqual(emittedRequirement));
     fixture.detectChanges();
 
-    const button = fixture.debugElement.query(By.css('button')); // Assuming the first button
+    const button = fixture.debugElement.query(By.css('button')); 
     button.triggerEventHandler('click', emittedRequirement);
   });
 });
